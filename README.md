@@ -2,11 +2,11 @@
 
 NovaTech Solutions Pvt. Ltd. is an IT company that provides digital solutions to businesses. They work with startups, small businesses, and enterprise clients who want to improve or digitize their operations.
 
-### 1. Home
+### Home
 The homepage should include:
 ---
 
->## [ ] i. Hero Section
+>## 1. [ ] Hero Section
 > - Attractive headline
 > - Company introduction
 > - CTA buttons
@@ -14,7 +14,7 @@ The homepage should include:
 > - Statistics
 > - Trust badges
 
-> ## [ ] ii. Services Preview
+> ## 2. [ ] Services Preview
 > Show our main services.
 > Each service card should include:
 > - Icon
@@ -22,7 +22,7 @@ The homepage should include:
 > - Short description
 > - Learn More button
 
-> ## [ ] iii. Why Choose Us
+> ## 3. [ ] Why Choose Us
 > Include:
 > - Experience
 > - Certified Team
@@ -31,7 +31,7 @@ The homepage should include:
 > - Security
 > - Fast Delivery
 
-> ## [ ] iv. Featured Projects
+> ## 4. [ ] Featured Projects
 > Display previous work with:
 > - Image
 > - Category
@@ -39,7 +39,7 @@ The homepage should include:
 > - Client Name
 > - Live Preview Button
 
-> ## [ ] v. Client Testimonials
+> ## 5. [ ] Client Testimonials
 > Professional testimonial cards with:
 > - Client Photo
 > - Name
@@ -47,18 +47,18 @@ The homepage should include:
 > - Review
 > - Star Rating
 
-> ## vi. Our Process
+> ## 6. [ ] Our Process
 > Show a timeline:
-> 1. [ ] Requirement Gathering
-> 2. [ ] Planning
-> 3. [ ] UI Design
-> 4. [ ] Development
-> 5. [ ] Testing
-> 6. [ ] Deployment
-> 7. [ ] Maintenance
+> - Requirement Gathering
+> - Planning
+> - UI Design
+> - Development
+> - Testing
+> - Maintenance
+> - Deployment
 
-> ## [ ] vii. FAQ Section
+> ## 7. [ ] FAQ Section
 > Accordion style FAQs.
 
-> ## [ ] viii. Contact CTA
+> ## 8. [ ] Contact CTA
 > Large section encouraging users to contact us.
