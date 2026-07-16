@@ -13,6 +13,15 @@ async function loadComponent(id, file) {
 }
 
 function initHeader() {
+  const nav = document.querySelector("nav");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 20) {
+      nav.classList.add("scrolled");
+    } else {
+      nav.classList.remove("scrolled");
+    }
+  });
 }
 
 document.addEventListener("DOMContentLoaded", async () => {

@@ -7,25 +7,44 @@
 
 :root {
   --bg: #000000;
-  --primary-Compo: #9929ea;
-  --secondary-compo: #ff5fcf;
+  --main-compo: #9929ea;
+  --primary-compo: #ff5fcf;
+  --secondary-compo: violet;
   --others: #faeb92;
 }
 
 body {
   background-color: var(--bg);
-  height: 1000vh;
 }
 
 nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   padding: 0 2vw;
   height: 12vh;
-  background-color: var(--primary-Compo);
+  background-color: var(--main-compo);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.5s linear;
 }
-nav h3 {
+nav.scrolled {
+  top: 25px;
+  margin: 0 20px;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px #9a29ea7e, 0 4px 12px #9a29ea7e;
+}
+nav h3 a {
+  display: inline-block;
+  text-decoration: none;
+  transform: scale(1);
+  transition: 0.3s linear;
+}
+nav h3 a:hover {
+  transform: scale(1.1);
+}
+nav h3 a span {
   font-size: 36px;
   font-weight: bolder;
 }
@@ -35,17 +54,46 @@ nav div {
 }
 nav div ul li {
   display: inline;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 nav div ul li a {
+  position: relative;
+  padding: 1px 0;
   color: var(--bg);
   text-decoration: none;
   font-weight: bold;
 }
+nav div ul li a::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: -1px;
+
+  width: 100%;
+  height: 3px;
+  border-radius: 50px;
+
+  background: black;
+
+  transform: scaleX(0);
+  transform-origin: center;
+
+  transition: transform 0.5s ease;
+}
+nav div ul li a:hover::after {
+  transform: scaleX(1);
+}
 .btn {
+  font-weight: bolder;
   padding: 1.5vh 1.5vw;
   margin-left: 10px;
-  background-color: var(--secondary-compo);
+  background-color: var(--primary-compo);
   border: 2px solid var(--bg);
   border-radius: 30px;
+  transition: 0.3s linear;
+}
+.btn:hover {
+  background-color: violet;
+  margin-bottom: 8px;
 }
