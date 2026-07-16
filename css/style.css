@@ -1,1 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+:root {
+  --bg: #000000;
+  --primary-Compo: #9929EA;
+  --secondary-compo: #FF5FCF;
+  --others: #FAEB92;
+}
