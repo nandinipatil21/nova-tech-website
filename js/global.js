@@ -16,7 +16,7 @@ function initHeader() {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-  await loadComponent("navbar", "components/navbar.html");
+  await loadComponent("header", "components/navbar.html");
 
   initHeader();
 });

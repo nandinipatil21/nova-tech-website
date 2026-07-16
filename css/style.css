@@ -1,11 +1,51 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
 }
 
 :root {
   --bg: #000000;
-  --primary-Compo: #9929EA;
-  --secondary-compo: #FF5FCF;
-  --others: #FAEB92;
+  --primary-Compo: #9929ea;
+  --secondary-compo: #ff5fcf;
+  --others: #faeb92;
+}
+
+body {
+  background-color: var(--bg);
+  height: 1000vh;
+}
+
+nav {
+  padding: 0 2vw;
+  height: 12vh;
+  background-color: var(--primary-Compo);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h3 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+nav div ul li {
+  display: inline;
+  margin-right: 10px;
+}
+nav div ul li a {
+  color: var(--bg);
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn {
+  padding: 1.5vh 1.5vw;
+  margin-left: 10px;
+  background-color: var(--secondary-compo);
+  border: 2px solid var(--bg);
+  border-radius: 30px;
 }
